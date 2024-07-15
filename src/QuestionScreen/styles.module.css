@@ -1,0 +1,64 @@
+.layout {
+    display: flex;
+    flex-direction: row;
+    /* height: auto; */
+    width: auto;
+    height: auto;
+    /* background-color: black; */
+}
+
+
+
+.container1 {
+    display: flex;
+    /* background-color: red; */
+    width: 70%;
+    max-width: 900px;
+    height: 70vh;
+    /* padding: 1rem; */
+    position: relative;
+
+}
+
+.container1 .gradient {
+    position: absolute;
+    background: linear-gradient(180deg, #895ef7, #58caf4);
+    /* background-color: blue; */
+    width: 100%;
+    height: 200px;
+    top: 0px;
+    z-index: -1;
+}
+
+.container1 .questionBox {
+    background-color: white;
+    color: black;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.questionBox .question {
+    color: black;
+    font-size: clamp(1vw, 1.6rem, 2vw);
+    font-weight: 700;
+    font-weight: 800;
+
+}
+
+.questionBox .top {
+    color: #474747;
+    background-color: #efefef;
+    margin-bottom: 2rem;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    line-break: strict;
+    font-weight: 900;
+}
+
+.container2 {
+    width: 30%;
+}
+
+.main .question {
+    color: black;
+}

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "matter-font";
+  src: url("/src/assets/fonts/matter-font/Matter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "matter-font-bold";
+  src: url("/src/assets/fonts/matter-font/Matter-Bold.ttf");
+}
+
+* {
+  font-family: matter-font;
+}
+
+body {
+  background-color: #f7faf7;
+}

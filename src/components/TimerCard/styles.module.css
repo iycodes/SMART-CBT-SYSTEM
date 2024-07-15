@@ -1,0 +1,42 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem;
+    width: fit-content;
+    gap: 1.5rem;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    color: #696969;
+    font-weight: 800;
+}
+
+.top span {
+    font-weight: 800;
+}
+
+
+.timer {
+    display: flex;
+    align-items: center;
+    font-family: "matter-font-bold";
+    font-weight: 900;
+    font-size: 3rem;
+
+}
+
+.show {
+    display: none;
+}
+
+.hide {
+
+    display: inline-block;
+}
+
+.sec_zero {
+    display: none;
+}
